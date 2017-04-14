@@ -44,12 +44,12 @@
 
     <!-- Contenido Principal -->
     <div class="container-fluid bg-1 text-center">
-        <h2>Modelado de un Problema Probabilístico</h2>
+        <h2>Diseño del problema</h2>
         <div class="container">
             <hr>
             <!-- Texto Principal del Problema -->
             <p>
-                Esta aplicación se basa en el ejemplo <i>2.37</i> del libro "Probabilidad y Estadística para Ingeniería y Ciencias". Sin embargo, se ha modificado de forma en que haya 3 bolsas y 3 colores de bolas, es decir, ahora tendremos los siguientes colores:
+                Las tres bolsas deben contener un numero concreto de bolas verdes, azules y rojas, porfavor indique las cantidades de los tres colores de bolas que contendran cada una de ellas (para este ejercicio las bolsas deben contener un minimo de una bola de cada color):
             </p>
             <br>
             
@@ -57,6 +57,14 @@
             <div class="container-pelotas bg-3 redondear-esquinas">
                 <div class="row row-pelotas">   
                     
+					
+					<!-- Bolsa 1 -->
+                    <div class="col-sm-4">
+                        <div class="pelota pelota-container pelota-roja"></div>
+                        <div class="pelota-container"> Roja</div>
+						<img class="bolsa-container" src="C:\Users\ANDRES\Documents\GitHub\ProyectoPE\images\bolsa.png" alt="Smiley face" height="642" width="102">Bolsa 1</img>
+                    </div>
+					
                     <!-- Bola Roja -->
                     <div class="col-sm-4">
                         <div class="pelota pelota-container pelota-roja"></div>
@@ -81,7 +89,7 @@
             
             <!-- Más texto del Problema -->
             <p class="question">
-                Recordemos que se extrae una bola sin ver de la bolsa número uno, y esta bola se pasa a la bolsa número dos, de misma forma, se extrae una bola sin ver de la bolsa numero dos, y esta se coloca en la bosa tres.
+                Recordemos que se extrae una bola de la bolsa número 1, y esta bola se pasa a la bolsa número dos.
             </p>
             <br>
             <a class="btn btn-principal" href="#" role="button">Continuar</a>

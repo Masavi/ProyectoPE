@@ -45,6 +45,13 @@ p {font-size: 16px;}
     line-height: 2.5em;
 }
 
+.bolsa-container {
+    float: left;
+    font-size: 1.25em;
+    height: 6.0em;
+    line-height: 2.5em;
+}
+
 .pelota-roja {
     background-color: indianred;
 	border-radius: 50%;
