@@ -13,11 +13,12 @@ p {font-size: 16px;}
 }
 
 .question {
-    font-style:italic;  
+    font-style:normal;  
 }
 
 .container-main {
     height:100vh;
+    min-width: 57.5em;
 }
 
 .container-footer {
@@ -37,22 +38,25 @@ p {font-size: 16px;}
     letter-spacing: 0px;
 }
 
-.pelota {
+.pelota-container {
     float: left;
+    font-size: 1.25em;
+    height: 2.5em;
+    line-height: 2.5em;
 }
 
 .pelota-roja {
     background-color: indianred;
 	border-radius: 50%;
 	width: 2.5em;
-	height: 2.5em; 
+	height: 2.5em;
 }
 
 .pelota-azul {
     background-color: dodgerblue;
 	border-radius: 50%;
 	width: 2.5em;
-	height: 2.5em; 
+	height: 2.5em;
 }
 
 .pelota-verde {
@@ -92,3 +96,33 @@ p {font-size: 16px;}
 .redondear-esquinas {
     border-radius: 25px;
 }
+
+.container-pelotas {
+    height: 10em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.row-pelotas{
+    padding-left: 17.5%;
+    padding-right: 12.5%;
+}
+
+.btn-principal {
+    background-color: #2f2f2f;
+    color: aliceblue;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.btn-principal:hover { 
+    background-color: whitesmoke;
+    color: aliceblue;
+    border-color: #2f2f2f;
+}
+
+.pelota {
+        margin-right: 1em;
+}
+
+

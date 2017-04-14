@@ -47,46 +47,51 @@
         <h2>Modelado de un Problema Probabilístico</h2>
         <div class="container">
             <hr>
+            <!-- Texto Principal del Problema -->
             <p>
                 Esta aplicación se basa en el ejemplo <i>2.37</i> del libro "Probabilidad y Estadística para Ingeniería y Ciencias". Sin embargo, se ha modificado de forma en que haya 3 bolsas y 3 colores de bolas, es decir, ahora tendremos los siguientes colores:
             </p>
             <br>
             
             <!-- Contenedor de Pelotas de Muestra -->
-            <div class="container-fluid bg-3 text-center redondear-esquinas">
-                <div class="row">
+            <div class="container-pelotas bg-3 redondear-esquinas">
+                <div class="row row-pelotas">   
                     
-                    <!-- Bola Negra -->
-                    <div class="col-sm-4">
-                        <p>Lorem ipsum..</p>
-                        <div class="pelota-roja"></div>
-                    </div>
-
                     <!-- Bola Roja -->
                     <div class="col-sm-4">
-                        <div class="pelota"></div>Lorem ipsum..</p>
-                        <div class="pelota pelota-azul"></div>
+                        <div class="pelota pelota-container pelota-roja"></div>
+                        <div class="pelota-container"> Roja</div>
+                    </div>
+
+                    <!-- Bola Azul -->
+                    <div class="col-sm-4">
+                        <div class="pelota pelota-container pelota-azul"></div>
+                        <div class="pelota-container">Azul</div>
                     </div>
 
                     <!-- Bola Verde -->
                     <div class="col-sm-4">
-                        <p>Lorem ipsum..</p>
-                        <div class="pelota-verde"></div>
+                        <div class="pelota pelota-container pelota-verde"></div>
+                        <div class="pelota-container">Verde</div>
                     </div>
                     
                 </div>
             </div>
             <br>
+            
+            <!-- Más texto del Problema -->
             <p class="question">
-                ¿Cuál es la probabilidad de que ahora se saque una bola negra de la segunda bolsa?
+                Recordemos que se extrae una bola de la bolsa número 1, y esta bola se pasa a la bolsa número dos.
             </p>
+            <br>
+            <a class="btn btn-principal" href="#" role="button">Continuar</a>
         </div>
     </div>
     
     <!-- Footer -->
     <footer class="container-footer bg-4 text-center">
         <div>
-            Escuela Superior de Cómputo<span class="glyphicon glyphicon-registration-mark"></span>&nbsp;2017
+            Escuela Superior de Cómputo <span class="glyphicon glyphicon-registration-mark"></span>&nbsp;2017
         </div>
     </footer>
 </div>
