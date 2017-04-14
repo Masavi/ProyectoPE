@@ -6,8 +6,22 @@ body {
 
 p {font-size: 16px;}
 
+.container-bolsas{
+    height: 34em;
+    padding-top: 1em;
+    padding-bottom: 2em;	
+}
+
+
+
 .container-fluid {
     height: 80%;
+    padding-top: 25px;
+    padding-bottom: 100px;
+}
+
+.container-fluid-p2{
+    height: 130%;
     padding-top: 25px;
     padding-bottom: 100px;
 }
@@ -45,10 +59,18 @@ p {font-size: 16px;}
     line-height: 2.5em;
 }
 
-.bolsa-container {
+.pelota-container-bolsa {
     float: left;
     font-size: 1.25em;
-    height: 6.0em;
+    height: 2.5em;
+	width:4.5em;
+    line-height: 2.5em;
+}
+
+.bolsa-container {
+    float: top;
+    font-size: 1.25em;
+    height: 11.0em;
     line-height: 2.5em;
 }
 
@@ -73,6 +95,27 @@ p {font-size: 16px;}
 	height: 2.5em; 
 }
 
+.pelota-verde-bolsa {
+    background-color: forestgreen;
+	border-radius: 50%;
+	width: 1.5em;
+	height: 1.5em; 
+}
+
+.pelota-roja-bolsa {
+    background-color: indianred;
+	border-radius: 50%;
+	width: 1.5em;
+	height: 1.5em;
+}
+
+.pelota-azul-bolsa {
+    background-color: dodgerblue;
+	border-radius: 50%;
+	width: 1.5em;
+	height: 1.5em;
+}
+
 .navbar-nav li a:hover {
     color: #1abc9c !important;
 }
@@ -93,7 +136,7 @@ p {font-size: 16px;}
 }
 
 .bg-4 { 
-    background-color: #2f2f2f; /* Gris Muy Oscuor */
+    background-color: #2f2f2f; /* Gris Muy Oscuro */
     color: #ffffff;
 }
 .texto-problema {
@@ -130,6 +173,22 @@ p {font-size: 16px;}
 
 .pelota {
         margin-right: 1em;
+}
+
+.select-container {
+	padding-bottom:3em;
+}
+
+select {
+	
+	font-size:1.25em;
+	width: 3.5em;
+	height: 2.25em;
+   -webkit-appearance: button; 
+   -moz-appearance: button;
+   -moz-user-select: none;
+   -moz-padding-end: 1em;
+   
 }
 
 
